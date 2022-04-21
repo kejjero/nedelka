@@ -1,4 +1,4 @@
-# Проект: «Неделька»
+# 🚀 Проект: «Неделька»
 
 ![Лендинг](https://sun1-14.userapi.com/s/v1/ig2/YJeeEBD9qb2_KG9CvJ0vJC1k8pfaV_S5aKXpBRuuvGLgUlpuYKYUEygm2_vnKuc24UZNvoWw3X6xRAWvHFx_z9ey.jpg?size=2560x986&quality=96&type=album)
 
