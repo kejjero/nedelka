@@ -1,6 +1,6 @@
 # 🚀 Проект: «Неделька»
 
-![Лендинг](https://sun1-14.userapi.com/s/v1/ig2/YJeeEBD9qb2_KG9CvJ0vJC1k8pfaV_S5aKXpBRuuvGLgUlpuYKYUEygm2_vnKuc24UZNvoWw3X6xRAWvHFx_z9ey.jpg?size=2560x986&quality=96&type=album)
+![Лендинг](https://sun9-79.userapi.com/s/v1/ig2/wFqbpkH1V4mwqz6WG-0F5dnwt4Zwk5wx7Jx0SKM8pv27XK8qtX3l7_75RiJNAsl7bjF2Vq0S-nBZuttktOjy7ANk.jpg?size=1743x709&quality=95&type=album)
 
 ### <img src="https://cdn-icons-png.flaticon.com/512/7135/7135133.png" width="25" />[ Ссылка на проект](https://kejjero.github.io/nedelka/)
 
