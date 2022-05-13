@@ -1,0 +1,8 @@
+@import './scss/mixins';
+@import './scss/variables';
+
+body {
+  background-color: $c_blue;
+  color: $ct_light-black;
+  font-family: $f_main-font;
+}
