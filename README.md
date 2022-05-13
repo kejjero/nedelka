@@ -1,38 +1,46 @@
-# 🚀 Проект: «Неделька»
+# Getting Started with Create React App
 
-![Лендинг](https://sun9-79.userapi.com/s/v1/ig2/wFqbpkH1V4mwqz6WG-0F5dnwt4Zwk5wx7Jx0SKM8pv27XK8qtX3l7_75RiJNAsl7bjF2Vq0S-nBZuttktOjy7ANk.jpg?size=1743x709&quality=95&type=album)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### <img src="https://cdn-icons-png.flaticon.com/512/7135/7135133.png" width="25" />[ Ссылка на проект](https://kejjero.github.io/nedelka/)
+## Available Scripts
 
-### <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" width="25" />[ Макет проекта](https://kejjero.github.io/nedelka/)
+In the project directory, you can run:
 
-## Функциональность
-Прогноз погоды на неделю. В основу функционала заложено получение данных прогноза погоды через API One Call по Иркутской области.
+### `npm start`
 
-## Дополнительно
-Планирую расширить функционал с добавлением температуры в утреннее, дневное и вечернее время суток.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
+### `npm test`
 
-## Стек:
-![HTML](https://img.shields.io/badge/-HTML-0d1117?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/-CSS-0d1117?style=for-the-badge&logo=css3)
-![Javascript](https://img.shields.io/badge/-Javascript-0d1117?style=for-the-badge&logo=Javascript)
-![ReactJS](https://img.shields.io/badge/-ReactJS-0d1117?style=for-the-badge&logo=React)
-![Webpack](https://img.shields.io/badge/-Webpack-0d1117?style=for-the-badge&logo=Webpack)
-![API One Call](https://img.shields.io/badge/-Api-0d1117?style=for-the-badge&logo=Api)
-![Illustrator](https://img.shields.io/badge/-Illustrator-0d1117?style=for-the-badge&logo=adobeIllustrator)
-![Figma](https://img.shields.io/badge/-Figma-0d1117?style=for-the-badge&logo=Figma)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Инструкция для работы с проектом:
-```
-git clone git@github.com:kejjero/nedelka.git
-cd nedelka
-npm i webpack --save-dev
-npm run build
-npm run dev
-```
-## Задеплоить проект в Github Pages
-```
-npm run deploy
-```
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
