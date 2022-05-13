@@ -1,0 +1,55 @@
+@import '../scss/mixins';
+@import '../scss/variables';
+
+.header {
+  width: 100%;
+  min-height: 70px;
+  margin-top: 20px;
+  @include flex-center;
+
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    @include flex-row-between;
+
+    .logo {
+      cursor: pointer;
+    }
+
+    .point {
+      @include flex-column-center;
+      width: 180px;
+      position: relative;
+
+      .country {
+        @include reset;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        color: #fff;
+      }
+
+      .city {
+        @include reset;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        color: #fff;
+      }
+
+      .iconPoint {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 15px;
+      }
+    }
+
+    .button {
+      width: 180px;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
