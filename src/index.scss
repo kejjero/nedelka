@@ -1,8 +1,12 @@
-@import './scss/mixins';
-@import './scss/variables';
+@import 'scss/mixins';
+@import 'scss/variables';
 
 body {
-  background-color: $c_blue;
-  color: $ct_light-black;
-  font-family: $f_main-font;
+  background-color: #2FB4FF;;
+  color: #555555;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
