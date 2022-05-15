@@ -1,4 +1,4 @@
-import styles from "../styles/header/header.module.scss"
+import styles from "../styles/header.module.scss"
 import logo from "../images/logo.svg";
 import iconPoint from "../images/point.svg"
 import {Switch} from "@mui/material";
@@ -10,7 +10,9 @@ function Header () {
     return (
         <header className={styles.header}>
             <div className={styles.wrapper}>
-                <img className={styles.logo} src={logo} alt="Логотип"/>
+                <a href={'./'}>
+                    <img className={styles.logo} src={logo} alt="Логотип"/>
+                </a>
                 <div className={styles.point}>
                     <p className={styles.country}>Россия</p>
                     <p className={styles.city}>г. Иркутск</p>
