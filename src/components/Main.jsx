@@ -1,8 +1,11 @@
-import styles from '../styles/main/main.module.scss'
+import styles from '../styles/main.module.scss'
 import city from '../images/city.svg'
 import Card from "./Card";
 
 function Main (props) {
+    // убираем 8 карточку из запроса
+    const dataWeather = props.dataWeather.slice(0, -1);
+
     return (
         <main className={styles.main}>
             <img className={styles.city} src={city} alt="Город"/>
@@ -10,15 +13,16 @@ function Main (props) {
             </div>
             <div className={styles.wrapper}>
                 <ul className={styles.cards}>
-                    {props.dataWeather.map((data) => {
+                    {dataWeather.map((data) => {
                         return (
-                            <Card
-                                key={data.key}
-                                temp={data.temp.day}
-                                weather={data.weather[0].description}
-                            />
+                                <Card
+                                    key={data.dt}
+                                    temp={data.temp.day}
+                                    date={data.dt}
+                                    description={data.weather[0].description}
+                                />
+                            )}
                         )
-                    })
                     }
                 </ul>
             </div>
