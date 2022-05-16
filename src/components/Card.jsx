@@ -13,15 +13,15 @@ function Card (props) {
     const iconsWeather = [
         {'небольшая облачность': cloudsSun},
         {'небольшой дождь': rainSun},
-        {'пасмурно': cloudsSun},
         {'дождь': rain},
-        {'переменная облачность': sun}
+        {'пасмурно': cloudsSun},
+        {'переменная облачность': sun},
+        {'облачно с прояснениями': cloudsSun},
+        {'ясно': sun}
     ]
     const weekDayNames = ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"];
     const monthNames = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня",
         "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"]
-
-    console.log(props.description)
 
     function getIconWeather() {
         for (let i = 0; i < iconsWeather.length; i++){
