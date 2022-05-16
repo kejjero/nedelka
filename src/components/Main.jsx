@@ -1,9 +1,6 @@
 import styles from '../styles/main.module.scss'
 import city from '../images/city.svg'
 import Card from "./Card";
-
-import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
 import LoadingCards from "./LoadingCards";
 
 function Main (props) {
