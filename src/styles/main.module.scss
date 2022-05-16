@@ -34,6 +34,8 @@
       grid-column-gap: 10px;
       padding: 10px;
       min-height: 180px;
+      display: flex;
+      justify-content: center;
 
       .card {
         position: relative;
@@ -68,7 +70,7 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
-            color: #C4C4C4;
+            color: #666;
           }
         }
 
