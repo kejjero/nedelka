@@ -1,6 +1,7 @@
 import styles from "../styles/popupForCards.module.scss"
+import React from "react";
 
-function PopupForCards () {
+const PopupForCards: React.FC = () => {
 
     return (
         <div className={styles.popup}>

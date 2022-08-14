@@ -1,15 +1,15 @@
 import styles from "../styles/main.module.scss";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 
-function CardDate (props) {
+const CardDate: React.FC<any> = ({cardDate, cardDay, cardMonth}) => {
     const [date, setDate] = useState('');
     const [day, setDay] = useState('');
     const [month, setMonth] = useState('')
 
     useEffect(() => {
-        setDate(props.cardDate);
-        setDay(props.cardDay)
-        setMonth(props.cardMonth)
+        setDate(cardDate);
+        setDay(cardDay)
+        setMonth(cardMonth)
     },[])
 
     return(
